@@ -13,4 +13,5 @@ int main() {
 	int re =(int)d % (int)di;
 	
 	printf("Dividendo: %.1f\nDivisor: %.1f\nQuoficiente: %.1f\n Resto: %i", d, di, qu, re);
+	return 0;
 }
