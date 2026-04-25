@@ -8,13 +8,15 @@ int main() {
 	
 	for (i = 0; i < 3; i++) {
 		for (j = 0; j < 5; j++) {
-			printf("Escreva o numero %d, %d; ", i+1, j+1);
+			printf("Escreva o numero %d, %d: ", i+1, j+1);
 			scanf("%d", &n[i][j]);
 		}
 	}
 	
+	printf("\n");
+	
 	for (k = 0; k < 3; k++) {
-		for (h = 0; h < 5; h++) {
+		for (h = 0; h < 5; h++) {               
 			printf("%d ", n[k][h]);	
 		}
 		printf("\n");
